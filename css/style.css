@@ -9,7 +9,24 @@ div[class*=cal-] {
 img {
     height: 100%;
 }
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    padding-top: 55px;
+}
+
+h3 {
+    padding: 0 0 20px 0;
+    font-size: 25px;
+}
 /*section-1*/
+.section-1, .section-2, .section-3 {
+    padding-bottom: 50px;
+}
+
 .maintitle {
     padding-top: 40px;
 }
@@ -20,10 +37,42 @@ img {
     margin: 50px 0;
 }
 /*section 2*/
-.section-2 {
+.section-2, .section-3 {
     width: 100%;
-    background-color: lightgray;
+    background-color: #F9F9F9;
 }
 
+/*section 3*/
+.imgwrap.round {
+    background-color: #428BCA;
+    border-radius: 100%;
+}
 
+.section-3 h3 {
+    margin: 0 0 20px 0;
+}
 
+/*responsive*/
+@media screen and (max-width: 767px) {
+    p {
+        padding: 0 20px;
+        font-size: 20px;
+    }
+
+    h1, h2, h3 {
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .section-3 .imgwrap {
+        height: 120px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px ) {
+    p {
+        padding: 0 20px;
+        font-size: 18px;
+    }
+}

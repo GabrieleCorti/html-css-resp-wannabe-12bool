@@ -344,6 +344,10 @@ div[class*="col-"] {
     .offset-sx-12 {
         margin-left: calc( (100% / 12) * 12);
     }
+
+    .d-sx-none {
+        display: none;
+    }
 }
 /*768-991*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -397,6 +401,10 @@ div[class*="col-"] {
 
     .offset-md-12 {
         margin-left: calc( (100% / 12) * 12);
+    }
+
+    .d-md-none {
+        display: none;
     }
 }
 /*>992*/
@@ -452,4 +460,9 @@ div[class*="col-"] {
     .offset-lg-12 {
         margin-left: calc( (100% / 12) * 12);
     }
+
+    .d-lg-none {
+        display: none;
+    }
 }
+
