@@ -1,3 +1,21 @@
-body {
-    background-color: #ff4767;
+.container {
+    text-align: center;
 }
+div[class*=cal-] {
+    text-align: center;
+}
+
+.maintitle {
+    padding-top: 40px;
+}
+
+.imgwrap {
+    height: 150px;
+    display: inline-block;
+    margin: 50px 0;
+}
+
+img {
+    height: 100%;
+}
+
