@@ -55,7 +55,6 @@ h3 {
 /*responsive*/
 @media screen and (max-width: 767px) {
     p {
-        padding: 0 20px;
         font-size: 20px;
     }
 
@@ -68,11 +67,19 @@ h3 {
     .section-3 .imgwrap {
         height: 120px;
     }
+
+    .section-1, .section-2, .section-3 {
+        padding: 0 20px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px ) {
     p {
-        padding: 0 20px;
+
         font-size: 18px;
+    }
+
+    .section-1, .section-2, .section-3 {
+        padding: 0 20px;
     }
 }
